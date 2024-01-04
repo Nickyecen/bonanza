@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "bonanza",
+	"version": "${version}",
+	"name": "Nickyecen's ClientSide Bonanza",
+	"description": "A collection of useful clientside utilities!",
+	"authors": [
+		"Nickyecen"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/bonanza/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.nickyecen.clientsidebonanza.Clientsidebonanza"
+		],
+		"client": [
+			"net.nickyecen.clientsidebonanza.ClientsidebonanzaClient"
+		],
+		"fabric-datagen": [
+			"net.nickyecen.clientsidebonanza.ClientsidebonanzaDataGenerator"
+		]
+	},
+	"mixins": [
+		"bonanza.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.3",
+		"minecraft": "~1.20.4",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
