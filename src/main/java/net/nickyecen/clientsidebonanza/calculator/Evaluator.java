@@ -1,4 +1,4 @@
-package calculator;
+package net.nickyecen.clientsidebonanza.calculator;
 
 import java.text.DecimalFormat;
 import java.util.LinkedList;

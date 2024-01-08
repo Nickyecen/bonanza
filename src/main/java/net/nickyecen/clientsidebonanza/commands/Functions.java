@@ -2,7 +2,7 @@ package net.nickyecen.clientsidebonanza.commands;
 
 import com.mojang.brigadier.context.CommandContext;
 
-import calculator.Evaluator;
+import net.nickyecen.clientsidebonanza.calculator.Evaluator;
 import net.fabricmc.fabric.api.client.command.v2.FabricClientCommandSource;
 
 import static net.minecraft.text.Text.literal;

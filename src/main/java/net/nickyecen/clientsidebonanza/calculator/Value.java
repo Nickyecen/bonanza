@@ -1,4 +1,4 @@
-package calculator;
+package net.nickyecen.clientsidebonanza.calculator;
 
 public class Value extends MathSymbol {
 	
